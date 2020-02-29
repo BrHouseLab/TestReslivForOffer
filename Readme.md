@@ -1,28 +1,35 @@
-###Тест для Resliv
+### Тест для Resliv
 Используется телеграм бот. Параметры бота:
 ```
 NAME = TestReslivbot
-```
-```
+
 TOKEN = 1114859169:AAGT4HjZ1FwQXMNHPwQslp-OWoxOGEloG7w
 ```
 
-###Запуск программы
-####Порядок действий
+### Запуск программы
+
+#### Порядок действий
 1. Скачать проект
 1. Компилировать
 1. Запустить 
 
 Действия выполняются в терминале.
-####1. Скачивание проекта
+
+#### 1. Скачивание проекта
 ```
 git clone https://github.com/BrHouseLab/TestReslivForOffer.git
+
+cd TestReslivForOffer
 ```
-####2. Компиляция
+#### 2. Компиляция
 ```
-> mvnw compile
+mvnw compile
 ```
-####3. Запуск
+#### 3. Запуск
 ```
-mvnw -pl backend -DTELEGA_NAME=TestReslivbot -DTELEGA_TOKEN=1114859169:AAGT4HjZ1FwQXMNHPwQslp-OWoxOGEloG7w spring-boot:run
+SET TELEGA_NAME=TestReslivbot
+
+SET TELEGA_TOKEN=1114859169:AAGT4HjZ1FwQXMNHPwQslp-OWoxOGEloG7w
+
+mvnw -pl backend spring-boot:run
 ```
