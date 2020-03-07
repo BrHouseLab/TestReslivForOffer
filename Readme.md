@@ -1,9 +1,9 @@
 ### Тест для Resliv
 Используется телеграм бот. Параметры бота:
 ```
-NAME = TestReslivbot
+NAME = Telegram_bot_name_plus_word_bot
 
-TOKEN = 1114859169:AAGT4HjZ1FwQXMNHPwQslp-OWoxOGEloG7w
+TOKEN = Telegram_bot_token
 ```
 
 ### Запуск программы
