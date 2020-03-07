@@ -27,9 +27,9 @@ mvnw compile
 ```
 #### 3. Запуск
 ```
-SET TELEGA_NAME=TestReslivbot
+SET TELEGA_NAME=Telegram_bot_name_plus_word_bot
 
-SET TELEGA_TOKEN=1114859169:AAGT4HjZ1FwQXMNHPwQslp-OWoxOGEloG7w
+SET TELEGA_TOKEN=Telegram_bot_token
 
 mvnw -pl backend spring-boot:run
 ```
